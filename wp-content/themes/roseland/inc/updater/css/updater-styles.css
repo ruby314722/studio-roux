@@ -1,0 +1,95 @@
+.sq-wrap {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#sq-welcome-banner {
+    position: relative;
+    width: 94%;
+    background-image: url('http://www.sculptureqode.com/sq-images/license-key-page-header-image.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2% 3%;
+}
+
+#sq-welcome-banner #sq-welcome-message {
+    color: #ffffff;
+}
+
+#sq-welcome-banner #sq-welcome-message h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+#sq-welcome-banner #sq-welcome-message #sq-dashboard-menu {
+	position: absolute;
+	margin: 0;
+	top:50%; 
+	right: 3%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);	
+}
+
+#sq-welcome-banner #sq-welcome-message #sq-dashboard-menu li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#sq-welcome-banner #sq-welcome-message #sq-dashboard-menu li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+#sq-theme-dashboard {
+	background: #ffffff;
+	padding: 20px;
+    border-radius: 0 0 6px 6px;
+    overflow: hidden;
+}
+
+#sq-dashboard-title {
+	text-align: center;
+	margin-bottom: 24px
+}
+
+#sq-licence-activation-form {
+	width: 56%;
+	padding: 2%;
+    float: left;
+}
+
+#sq-licence-activation-form .sq-message {
+    color: #bebebe
+}
+
+#sq-licence-activation-form .button-secondary, #sq-support .button-secondary {
+    color: #ffffff;
+    background: #8fa5c2;
+    border-color: #8fa5c2;
+    padding: 18px 10px;
+    line-height: 0;
+    box-shadow: none;
+}
+
+#sq-licence-activation-form .button, #sq-support .button {
+    background-color: #5abe81;
+    border-color: #5abe81;
+    padding: 20px 30px;
+    line-height: 0;
+}
+
+#sq-licence-activation-form  td {
+    padding: 10px 0 10px 0;
+}
+
+#sq-support {
+	float: right;
+	width: 36%;
+	padding: 2%;
+}
